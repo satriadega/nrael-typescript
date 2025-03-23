@@ -31,7 +31,7 @@ async function main() {
     const jsFiles = files.filter((file) => file.endsWith(".js"));
 
     for (const file of jsFiles) {
-      console.log(`Executing ${file}...`);
+      console.log(`Executing ${file}...\n`);
       await runCommand(`node ./dist/${file}`, `${file} executed successfully.`);
     }
   } catch (error) {
