@@ -24,3 +24,7 @@ You can compile a TypeScript file using the tsc (TypeScript Compiler) with the -
 ```bash
 $ tsc --noEmitOnError hello.ts
 ```
+
+## Downleveling
+
+This process of moving from a newer or “higher” version of ECMAScript down to an older or “lower” one is sometimes called downleveling.
