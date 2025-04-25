@@ -28,3 +28,8 @@ $ tsc --noEmitOnError hello.ts
 ## Downleveling
 
 This process of moving from a newer or “higher” version of ECMAScript down to an older or “lower” one is sometimes called downleveling.
+
+## Basic Types
+- string represents string values like "Hello, world"
+- number is for numbers like 42. JavaScript does not have a special runtime value for integers, so there’s no equivalent to int or float - everything is simply number
+- boolean is for the two values true and false
