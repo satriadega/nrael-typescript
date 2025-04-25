@@ -9,3 +9,7 @@
   "include": ["./src/**/*.ts"],
   "exclude": ["./dist"]
 }
+
+// strict true
+// no any
+// check null, best options for validation
