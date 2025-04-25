@@ -22,7 +22,7 @@ async function main() {
 
   console.log("Compiling TypeScript...");
   await runCommand(
-    `tsc --outDir dist ./src/${folderName}/*.ts`,
+    `npx tsc --outDir dist ./src/${folderName}/*.ts`,
     "Compilation complete."
   );
 
